@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.esewa-btn {
+  padding: 12px;
+  background-color: rgb(5, 193, 33);
+  border-radius: 6px;
+}
+
+.khalti-btn {
+  padding: 12px;
+  background-color: rgb(70, 0, 128);
+  border-radius: 6px;
+}
+
+.esewa-btn, .khalti-btn {
+  outline: none;
+  border: transparent;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-group {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 20px;
 }
